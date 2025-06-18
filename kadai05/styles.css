@@ -10,14 +10,22 @@ body {
   background-color: #f9f9f9;
   line-height: 1.6;
   color: #333;
-  text-align: center;
+  text-align: left; /* 全体は左寄せ */
+  padding: 20px;
 }
 
+/* ページ全体のタイトルだけ中央寄せ */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 各セクション */
 section {
   margin: 20px 0;
 }
 
-/* 共通の画像スタイル（10%に縮小し中央寄せ） */
+/* 画像は中央寄せ */
 section img {
   width: 10%;
   display: block;
